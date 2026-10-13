@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these simulation inputs, please cite the associated arXiv preprint."
+title: "interval-paper-data"
+type: dataset
+
+authors:
+  - family-names: von Domaros
+    given-names: Michael
+  - family-names: Thomas
+    given-names: Rinto
+  - family-names: Prabhakar
+    given-names: Praveen Ranganath
+
+preferred-citation:
+  type: article
+  title: "interval-paper"
+  authors:
+  - family-names: von Domaros
+    given-names: Michael
+  - family-names: Thomas
+    given-names: Rinto
+  - family-names: Prabhakar
+    given-names: Praveen Ranganath
+
+  year: 2026
+  identifiers:
+    - type: other
+      value: arXiv:submit/xxxxxxx
+  url: https://arxiv.org/submit/xxxxxxx
