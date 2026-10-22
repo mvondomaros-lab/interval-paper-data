@@ -1,8 +1,20 @@
 cff-version: 1.2.0
-message: "If you use these simulation inputs, please cite the associated arXiv preprint."
-title: "interval-paper-data"
+message: >-
+  If you use these simulation inputs, please cite the associated paper in
+  preferred-citation and record the repository commit used.
+title: >-
+  Simulation inputs for Choosing Spatial Resolution in the Residence-Time
+  Approach to Local Diffusivity
 type: dataset
-
+url: https://github.com/mvondomaros-lab/interval-paper-data
+repository-code: https://github.com/mvondomaros-lab/interval-paper-data
+abstract: >-
+  Molecular dynamics structures, topologies, force-field parameters, periodic-cell
+  information, and selected NAMD/Colvars configurations for water in POPC lipid
+  bilayers and water, acetone, and 6-MHO in a model stratum corneum lipid barrier.
+  These inputs accompany a study of interval-width selection in the residence-time
+  approach to position-dependent diffusivity. Production trajectories, restart
+  checkpoints, and analysis scripts are not included.
 authors:
   - family-names: von Domaros
     given-names: Michael
@@ -10,20 +22,68 @@ authors:
     given-names: Rinto
   - family-names: Prabhakar
     given-names: Praveen Ranganath
-
+keywords:
+  - molecular dynamics
+  - position-dependent diffusivity
+  - residence-time approach
+  - first-exit times
+  - interval-width selection
+  - membrane transport
+  - NAMD
+  - Colvars
 preferred-citation:
   type: article
-  title: "interval-paper"
+  title: Choosing Spatial Resolution in the Residence-Time Approach to Local Diffusivity
   authors:
-  - family-names: von Domaros
-    given-names: Michael
-  - family-names: Thomas
-    given-names: Rinto
-  - family-names: Prabhakar
-    given-names: Praveen Ranganath
-
+    - family-names: von Domaros
+      given-names: Michael
+    - family-names: Thomas
+      given-names: Rinto
+    - family-names: Prabhakar
+      given-names: Praveen Ranganath
   year: 2026
+  month: 10
+  journal: arXiv
+  status: preprint
+  doi: 10.48550/arXiv.2610.29703
   identifiers:
     - type: other
-      value: arXiv:submit/xxxxxxx
-  url: https://arxiv.org/submit/xxxxxxx
+      value: arXiv:2610.29703
+  url: https://arxiv.org/abs/2610.29703
+references:
+  - type: article
+    title: >-
+      A Residence-Time Approach for Determining Position-Dependent Diffusivities
+      from Biased Molecular Simulations
+    authors:
+      - family-names: Thomas
+        given-names: Rinto
+      - family-names: Prabhakar
+        given-names: Praveen Ranganath
+      - family-names: von Domaros
+        given-names: Michael
+    journal: Journal of Chemical Theory and Computation
+    year: 2026
+    volume: 22
+    issue: 18
+    start: 9235
+    end: 9246
+    doi: 10.1021/acs.jctc.6c00645
+  - type: article
+    title: Modeling Diffusion and Permeation Across the Stratum Corneum Lipid Barrier
+    authors:
+      - family-names: Thomas
+        given-names: Rinto
+      - family-names: Prabhakar
+        given-names: Praveen Ranganath
+      - family-names: Tobias
+        given-names: Douglas J.
+      - family-names: von Domaros
+        given-names: Michael
+    journal: ACS ES&T Air
+    year: 2026
+    volume: 3
+    issue: 2
+    start: 580
+    end: 589
+    doi: 10.1021/acsestair.5c00412
